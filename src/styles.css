@@ -183,3 +183,19 @@ select {
     font-size: 14px;
   }
 }
+@media (max-width: 768px) {
+  .hero-image {
+    position: relative;   /* text ke upar overlap na kare */
+    margin-top: 32px;
+    width: 100%;
+  }
+  .hero-card {
+    left: 0;
+    right: 0;
+    width: 100%;          /* card cut na ho */
+  }
+  .hero-meta {
+    position: static;     /* label image se alag rahe */
+    margin-top: 24px;
+  }
+}
